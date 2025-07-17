@@ -142,3 +142,20 @@ main h1 {
 
 }
 
+
+.spline-container {
+  width: 100%;
+  max-width: 900px; /* or whatever width you want */
+  margin: 3rem auto;
+  height: 600px; /* match previous iframe height */
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+.spline-container spline-viewer {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
