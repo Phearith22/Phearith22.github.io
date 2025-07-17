@@ -15,3 +15,31 @@ body{
     box-sizing: border-box;
     font-family: 'Arial', sans-serif;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom:2rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.contact-btn {
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+    background-color: rgba(143, 143, 143, 0.2);
+    border: 1px solid rgba(102, 102, 102, 0.5);
+    border-radius: 50px;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s;
+}
+
+.contact-btn:hover {
+    background-color: #76b0ab37;
+}
