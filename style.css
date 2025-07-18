@@ -232,3 +232,27 @@ main h1 {
 .card:hover::before {
     opacity: 1;
 }
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-top: 1rem;
+    color: #ffffff;
+}
+
+.card-text {
+    color: #7b7b7b;
+    line-height: 1.6;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    max-width: 30rem;
+}
+
+.bento-grid .background-img {
+    position: absolute;
+    inset: -1% -1% -1% -1%;
+    width: 110%;
+    height: 110%;
+    object-fit: cover;
+    z-index: -1;
+}
