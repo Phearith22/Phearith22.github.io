@@ -262,3 +262,15 @@ main h1 {
     bottom: 5%;
     left: 15%;
     width: 70%;}
+
+
+
+    .card-text a {
+  color: #dcdcdc;
+  text-decoration: none;
+}
+
+.card-text a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
