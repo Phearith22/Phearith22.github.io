@@ -256,3 +256,9 @@ main h1 {
     object-fit: cover;
     z-index: -1;
 }
+
+.bento-grid .skills-group {
+    position: absolute;
+    bottom: 5%;
+    left: 15%;
+    width: 70%;}
