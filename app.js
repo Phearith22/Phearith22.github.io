@@ -15,9 +15,10 @@ document.querySelectorAll('.card').forEach(card => {
     const video4 = document.getElementById('projectVideo4');
     const video5 = document.getElementById('projectVideo5');
     const video6 = document.getElementById('projectVideo6');
+    const video7 = document.getElementById('projectVideo7');
 
 
-    const videoList =[video1, video2, video3, video4, video5, video6];
+    const videoList =[video1, video2, video3, video4, video5, video6, video7];
 
     videoList.forEach (function(video){
         video.addEventListener("mouseover", function(){
